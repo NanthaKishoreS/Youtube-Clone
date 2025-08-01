@@ -1,0 +1,24 @@
+.side-bar{
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    position: fixed;
+    width: 100px;
+}
+.home-icon{
+    height: 45px;
+}
+.home-icon,.explore-icon,.subsriptions-icon,.original-icon,.youtube-music-icon,.library-icon{
+    height: 40px;
+    width: 40px;
+}
+.home-button{
+    padding-top: 17px;
+}
+.home-button,.explore-button,.subsriptions-button,.original-button,.youtube-music-button,.library-button{
+    width: 100%; 
+    height: 80px;
+    padding-bottom: 100px;
+    border: none;
+    background-color: #ffff;
+}
