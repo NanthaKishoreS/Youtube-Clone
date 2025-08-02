@@ -8,7 +8,34 @@
         <link rel="stylesheet" href="styles/side-bar.css">
     </head>
     <body>
-        <div class="side-bar">
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="header-elements/hamburger-menu.svg" >
+                <img class="youtube-logo" src="header-elements/youtube-logo (1).svg" >
+            </div>
+            <div class="center-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button 
+                class="search-button">
+                    <img class="search-icon" src="header-elements/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="header-elements/voice-search-icon.svg">
+                    <div class="tooltip">Search With Your Voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <img class="upload-icon" src="header-elements/upload.svg" >
+                <img class="app-icon" src="header-elements/youtube-apps.svg" >
+                <div class="notification-controls">
+                    <img class="notifications-icon" src="header-elements/notifications.svg" >
+                    <div class="notification-count">3</div>
+                </div>
+                <img class="profile" src="header-elements/image.png" >
+            </div>
+        </header>
+        <nav class="side-bar">
             <button class="home-button">
                 <img class="home-icon" src="sidebar-elements/home.svg" >
                 <p class="sidebar-text">Home</p>
@@ -33,33 +60,8 @@
                 <img class="library-icon" src="sidebar-elements/library.svg" >
             <p class="sidebar-text"> Library</p>
             </button>
-        </div>
-        <div class="header">
-            <div class="left-section">
-                <img class="hamburger-menu" src="header-elements/hamburger-menu.svg" >
-                <img class="youtube-logo" src="header-elements/youtube-logo (1).svg" >
-            </div>
-            <div class="center-section">
-                <input class="search-bar" type="text" placeholder="Search">
-                <button 
-                class="search-button">
-                    <img class="search-icon" src="header-elements/search.svg">
-                </button>
-                <button class="voice-search-button">
-                    <img class="voice-search-icon" src="header-elements/voice-search-icon.svg">
-                </button>
-            </div>
-            <div class="right-section">
-                <img class="upload-icon" src="header-elements/upload.svg" >
-                <img class="app-icon" src="header-elements/youtube-apps.svg" >
-                <div class="notification-controls">
-                    <img class="notifications-icon" src="header-elements/notifications.svg" >
-                    <div class="notification-count">3</div>
-                </div>
-                <img class="profile" src="header-elements/image.png" >
-            </div>
-        </div>
-        <div class="video-grid">
+        </nav>
+        <section class="video-grid">
             <div class="video-preview">
             <div class="thumbnail-row">
                 <div class="duration">13:59</div>
@@ -318,6 +320,6 @@ Anything You Can Fit In The Circle I’ll Pay For</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </body>
 </html>
